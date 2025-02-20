@@ -35,67 +35,66 @@ export const assets = {
 
 export const projectsData = [
     {
-      title: "Skyline Haven",
-      price: "$2,50,000",
-      location: "California",
+      title: "Skyline Residency",
+      price: "₹2,00,00,000",
+      location: "Hyderabad, Telangana",
       image: project_img_1
     },
     {
-      title: "Vista Verde",
-      price: "$2,50,000",
-      location: "San Francisco",
+      title: "Greenview Heights",
+      price: "₹1,80,00,000",
+      location: "Vijayawada, Andhra Pradesh",
       image: project_img_2
     },
     {
-      title: "Serenity Suites",
-      price: "$2,50,000",
-      location: "Chicago",
+      title: "Serene Towers",
+      price: "₹1,50,00,000",
+      location: "Visakhapatnam, Andhra Pradesh",
       image: project_img_3
     },
     {
-      title: "Central Square",
-      price: "$2,50,000",
-      location: "Los Angeles",
+      title: "Central Vista",
+      price: "₹2,50,00,000",
+      location: "Tirupati, Andhra Pradesh",
       image: project_img_4
     },
     {
-      title: "Vista Verde",
-      price: "$2,50,000",
-      location: "San Francisco",
+      title: "Sunset Residency",
+      price: "₹1,75,00,000",
+      location: "Warangal, Telangana",
       image: project_img_5
     },
     {
-      title: "Serenity Suites",
-      price: "$2,50,000",
-      location: "Chicago",
+      title: "Elite Enclave",
+      price: "₹1,60,00,000",
+      location: "Guntur, Andhra Pradesh",
       image: project_img_6
     },
-    
-  ];
+];
 
-  export const testimonialsData = [
+export const testimonialsData = [
     {
-        name: "Donald Jackman",
-        title: "Marketing Manager",
+        name: "Vikram",
+        title: "Software Development Engineer",
         image: profile_img_1,
-        alt: "Portrait of Donald Jackman",
+        alt: "Portrait of Vikram",
         rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "Finding a home with modern amenities and a prime location was crucial. Their team provided excellent recommendations and support."
     },
     {
-        name: "Richard Nelson",
-        title: "UI/UX Designer",
+        name: "Arjun",
+        title: "Founder, Tech Startup",
         image: profile_img_2,
-        alt: "Portrait of Richard Nelson",
+        alt: "Portrait of Arjun",
         rating: 4,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "Balancing a growing business and home search was tough, but their professional guidance made it seamless. Highly recommended!"
     },
     {
-        name: "James Washington",
-        title: "Co-Founder",
+        name: "Karthik",
+        title: "Film Actor",
         image: profile_img_3,
-        alt: "Portrait of James Washington",
+        alt: "Portrait of Karthik",
         rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "Luxury, comfort, and great investment value—exactly what I wanted in a home. The team understood my needs perfectly."
     }
 ];
