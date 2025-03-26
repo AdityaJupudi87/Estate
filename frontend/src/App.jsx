@@ -11,6 +11,7 @@ import Signup from "./pages/Signup"; // Import Signup Page
 import Navbar from "./components/Navbar"; // Ensure Navbar is imported
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 const App = () => {
   return (
@@ -19,6 +20,10 @@ const App = () => {
         <ToastContainer />
         <Navbar /> 
         <Routes>
+          
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route element={<ProtectedRoute />}>
           <Route path="/" element={
             <>
               <Header />
@@ -29,8 +34,8 @@ const App = () => {
               <Footer />
             </>
           } />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
+          </Route>
+
         </Routes>
       </div>
     </Router>
